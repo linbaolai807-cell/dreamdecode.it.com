@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What Does It Mean to Dream About Flying? - Dream Interpretation Guide</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            serif: ['Playfair Display', 'serif'],
+          },
+          colors: {
+            primary: '#818cf8',
+            secondary: '#34d399',
+            dark: '#0f172a',
+            midnight: '#1e1b4b',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background: linear-gradient(to bottom right, #0f172a, #1e1b4b, #312e81);
+      min-height: 100vh;
+    }
+
+    .glass-nav {
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .article-card {
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      transition: all 0.3s ease;
+    }
+
+    .article-card:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(129, 140, 248, 0.3);
+      box-shadow: 0 0 20px rgba(129, 140, 248, 0.2);
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;
+    }
+  </style>
+</head>
+
+<body class="text-gray-200 font-sans antialiased selection:bg-primary selection:text-white">
+
+  <!-- Header -->
+  <header class="fixed w-full top-0 z-50 glass-nav transition-all duration-300">
+    <div class="max-w-7xl mx-auto flex items-center justify-between p-4 md:px-8">
+      <a href="../index.html"
+        class="text-2xl font-bold tracking-tight text-white hover:opacity-80 transition font-serif">
+        <!DOCTYPE html>
+        <html lang="en" class="scroll-smooth">
+
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>What Does It Mean to Dream About Flying? - Dream Interpretation Guide</title>
+          <script src="https://cdn.tailwindcss.com"></script>
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
+            rel="stylesheet">
+          <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  fontFamily: {
+                    sans: ['Outfit', 'sans-serif'],
+                    serif: ['Playfair Display', 'serif'],
+                  },
+                  colors: {
+                    primary: '#818cf8',
+                    secondary: '#34d399',
+                    dark: '#0f172a',
+                    midnight: '#1e1b4b',
+                  }
+                }
+              }
+            }
+          </script>
+          <style>
+            body {
+              background: linear-gradient(to bottom right, #0f172a, #1e1b4b, #312e81);
+              min-height: 100vh;
+            }
+
+            .glass-nav {
+              background: rgba(15, 23, 42, 0.7);
+              backdrop-filter: blur(12px);
+              -webkit-backdrop-filter: blur(12px);
+              border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .glass-card {
+              background: rgba(255, 255, 255, 0.05);
+              backdrop-filter: blur(10px);
+              -webkit-backdrop-filter: blur(10px);
+              border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            .article-card {
+              background: rgba(255, 255, 255, 0.03);
+              backdrop-filter: blur(8px);
+              -webkit-backdrop-filter: blur(8px);
+              border: 1px solid rgba(255, 255, 255, 0.08);
+              transition: all 0.3s ease;
+            }
+
+            .article-card:hover {
+              background: rgba(255, 255, 255, 0.05);
+              border-color: rgba(129, 140, 248, 0.3);
+              box-shadow: 0 0 20px rgba(129, 140, 248, 0.2);
+            }
+
+            details summary::-webkit-details-marker {
+              display: none;
+            }
+          </style>
+        </head>
+
+        <body class="text-gray-200 font-sans antialiased selection:bg-primary selection:text-white">
+
+          <!-- Header -->
+          <header class="fixed w-full top-0 z-50 glass-nav transition-all duration-300">
+            <div class="max-w-7xl mx-auto flex items-center justify-between p-4 md:px-8">
+              <a href="../index.html"
+                class="text-2xl font-bold tracking-tight text-white hover:opacity-80 transition font-serif">
+                Dream<span class="text-primary">Guide</span>
+              </a>
+              <button id="menuBtn" class="md:hidden text-2xl text-white focus:outline-none">
+                ☰
+              </button>
+              <nav id="menu" class="hidden md:flex items-center gap-8 text-base font-medium text-gray-300">
+                <a href="../index.html"
+                  class="hover:text-white hover:shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-all duration-300">Home</a>
+                <a href="../index.html#features"
+                  class="hover:text-white hover:shadow-[0_0_10px_rgba(255,255,255,0.3)] transition-all duration-300">Features</a>
+                <a href="../contact.html" <main class="max-w-4xl mx-auto pt-32 pb-20 px-6">
+                  <article class="glass-card p-8 md:p-12 rounded-3xl">
+                    <span
+                      class="inline-block py-1 px-3 rounded-full bg-indigo-900/30 text-indigo-300 text-sm font-semibold mb-4 border border-indigo-500/30 backdrop-blur-sm">
+                      Dream Meanings
+                    </span>
+                    <h1 class="text-3xl md:text-5xl font-bold mb-6 text-white leading-tight font-serif">What Does It
+                      Mean to Dream About Flying?</h1>
+
+                    <div class="flex items-center gap-4 mb-10 text-gray-400 text-sm border-b border-white/10 pb-8">
+                      <span>By Dream Expert</span>
+                      <span>•</span>
+                      <span>Nov 26, 2025</span>
+                      <span>•</span>
+                      <span>7 min read</span>
+                    </div>
+
+                    <div class="prose prose-lg prose-invert max-w-none">
+
+                      <!-- Quick Answer Summary -->
+                      <div
+                        class="bg-indigo-500/10 border border-indigo-500/30 p-6 rounded-xl mb-8 backdrop-blur-sm hover:bg-indigo-500/15 transition-all">
+                        <h3 class="text-lg font-bold text-indigo-300 mb-3 flex items-center">
+                          <span class="mr-2">⚡</span> Quick Answer
+                        </h3>
+                        <p class="text-gray-300 leading-relaxed">
+                          Dreaming about flying typically represents freedom, liberation, and gaining a higher
+                          perspective on life. It can symbolize breaking free from limitations, achieving personal
+                          goals, or experiencing spiritual elevation. The ease or difficulty of flying in your dream
+                          reflects your confidence level and sense of control in waking life.
+                        </p>
+                      </div>
+
+                      <!-- Core Interpretations -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">Core Interpretations</h2>
+
+                      <div class="space-y-6">
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="text-xl font-semibold text-primary mb-3">① Emotional Meaning</h3>
+                          <p class="text-gray-300 leading-relaxed">Flying dreams evoke feelings of exhilaration and joy.
+                            They represent emotional liberation—breaking free from stress, worry, or oppressive
+                            situations. When you fly effortlessly, it indicates you're experiencing a period of
+                            emotional lightness and happiness. The higher you fly, the more you're distancing yourself
+                            from earthly concerns and daily troubles.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="text-xl font-semibold text-primary mb-3">② Psychological Meaning</h3>
+                          <p class="text-gray-300 leading-relaxed">Psychologically, flying represents the ego's desire
+                            to transcend limitations and achieve superiority. Alfred Adler viewed flying dreams as
+                            compensation for feelings of inferiority—your subconscious asserting dominance and
+                            capability. It can also indicate a need to "rise above" petty concerns or see situations
+                            from a broader, more objective viewpoint.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="text-xl font-semibold text-primary mb-3">③ Spiritual or Symbolic Meaning</h3>
+                          <p class="text-gray-300 leading-relaxed">Spiritually, flying symbolizes soul liberation and
+                            astral projection. Many believe flying dreams occur when the soul temporarily leaves the
+                            physical body during sleep. It represents spiritual ascension, enlightenment, and connection
+                            with higher consciousness. Flying dreams often increase during periods of spiritual growth
+                            or awakening.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="text-xl font-semibold text-primary mb-3">④ Cultural or Traditional Meaning</h3>
+                          <p class="text-gray-300 leading-relaxed">Throughout history, only gods, angels, and heroes
+                            possessed the ability to fly. Dreaming of flight taps into archetypal imagery of divine
+                            power and heroic capability. In many cultures, flying represents accessing your "higher
+                            self"—the part of you that transcends human limitations and connects with the divine realm.
+                          </p>
+                        </div>
+                      </div>
+
+                      <!-- Common Scenarios -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">Common Scenarios & Their Meanings
+                      </h2>
+
+                      <div class="space-y-6">
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying High and Fast</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong> You're
+                            experiencing peak confidence and success. Everything feels effortless, and you're making
+                            rapid progress toward your goals. This dream reflects a period where you feel unstoppable
+                            and in complete control of your destiny.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Struggling to Stay Airborne</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong>
+                            Something is weighing you down—whether it's self-doubt, responsibilities, or external
+                            pressures. You're trying to rise above your problems, but obstacles keep pulling you back to
+                            earth. This indicates internal conflicts preventing you from achieving your full potential.
+                          </p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying Then Falling</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong> The
+                            classic "Icarus complex"—flying too close to the sun. You may be overreaching or taking
+                            excessive risks. This dream warns against hubris and reminds you to stay grounded despite
+                            success. It reflects fear of failure after reaching new heights.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying with Wings vs. Without</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong> With
+                            wings suggests you feel equipped and prepared for challenges ahead. Without wings (like
+                            Superman) indicates pure willpower and internal strength—you're achieving success through
+                            sheer determination and mental power rather than external tools.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying Backward or Sideways</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong> You're
+                            moving in unconventional ways or taking an indirect path to your goals. This may indicate
+                            creative problem-solving or feeling out of sync with your usual direction in life. It can
+                            also suggest confusion about which way to proceed.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying Over Water</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong> You're
+                            rising above your emotions while remaining aware of them. Water represents the unconscious
+                            mind and emotions—flying over it suggests you're gaining perspective on your feelings
+                            without being overwhelmed by them.</p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying Through Obstacles</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong>
+                            Navigating through buildings, trees, or wires represents obstacles in your path. How easily
+                            you maneuver reflects your problem-solving abilities and confidence in overcoming
+                            challenges. Crashing into obstacles indicates feeling blocked or frustrated in waking life.
+                          </p>
+                        </div>
+
+                        <div class="article-card p-6 rounded-xl">
+                          <h3 class="font-bold text-lg text-white mb-3">Flying at Night</h3>
+                          <p class="text-gray-300 leading-relaxed"><strong class="text-primary">Meaning:</strong>
+                            Exploring unknown territories or the unconscious mind. Night flying suggests you're
+                            venturing into unfamiliar emotional or psychological territory. It can also represent
+                            freedom from societal judgment—flying when no one can see you.</p>
+                        </div>
+                      </div>
+
+                      <!-- Positive vs Negative Meanings -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">Positive vs. Negative Meanings
+                      </h2>
+                      <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-emerald-500/10 border border-emerald-500/30 p-6 rounded-xl backdrop-blur-sm">
+                          <h4 class="font-bold text-emerald-300 mb-4 text-lg flex items-center">
+                            <span class="mr-2">✅</span> Positive Meanings
+                          </h4>
+                          <ul class="list-disc pl-5 space-y-2 text-emerald-200/90">
+                            <li>Freedom and independence</li>
+                            <li>Achieving goals and ambitions</li>
+                            <li>Gaining new perspective</li>
+                            <li>Spiritual growth and elevation</li>
+                            <li>Confidence and empowerment</li>
+                            <li>Creative expression</li>
+                          </ul>
+                        </div>
+                        <div class="bg-red-500/10 border border-red-500/30 p-6 rounded-xl backdrop-blur-sm">
+                          <h4 class="font-bold text-red-300 mb-4 text-lg flex items-center">
+                            <span class="mr-2">❌</span> Negative Meanings
+                          </h4>
+                          <ul class="list-disc pl-5 space-y-2 text-red-200/90">
+                            <li>Escapism from responsibilities</li>
+                            <li>Ego inflation or superiority complex</li>
+                            <li>Fear of falling or failure</li>
+                            <li>Lack of grounding</li>
+                            <li>Unrealistic expectations</li>
+                            <li>Disconnection from reality</li>
+                          </ul>
+                        </div>
+                      </div>
+
+                      <!-- What This Dream Says About Your Life -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">What This Dream Says About Your
+                        Life</h2>
+                      <p class="mb-4 text-gray-300 leading-relaxed">
+                        <strong class="text-primary">For Your Career:</strong> You're ready to take bold steps and view
+                        challenges from a strategic, big-picture perspective. Flying dreams often precede career
+                        breakthroughs or promotions. They suggest you have the capability to rise above office politics
+                        and focus on what truly matters.
+                      </p>
+                      <p class="mb-4 text-gray-300 leading-relaxed">
+                        <strong class="text-primary">For Your Relationships:</strong> You may be craving more
+                        independence within your relationships. If you feel tied down by a partner or family
+                        obligations, this dream represents your soul's need for personal space and autonomy. It doesn't
+                        mean ending relationships—just finding better balance.
+                      </p>
+                      <p class="mb-4 text-gray-300 leading-relaxed">
+                        <strong class="text-primary">For Personal Growth:</strong> You're entering a phase of rapid
+                        development and self-discovery. Flying dreams indicate you're breaking free from old patterns
+                        and limitations. Trust your instincts and embrace this period of expansion.
+                      </p>
+
+                      <!-- Common Questions -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">Common Questions</h2>
+                      <div class="space-y-4">
+                        <details
+                          class="group bg-slate-800/50 backdrop-blur-md border border-white/10 p-5 rounded-xl hover:bg-slate-800/70 transition-all">
+                          <summary class="font-bold text-white cursor-pointer flex justify-between items-center">
+                            Is flying a sign of lucid dreaming?
+                            <span class="text-primary group-open:rotate-180 transition-transform">▼</span>
+                          </summary>
+                          <p class="mt-3 text-gray-300 leading-relaxed">Yes! Flying is one of the most common triggers
+                            for lucid dreaming. The impossible nature of flight often causes dreamers to realize they're
+                            dreaming, leading to conscious control of the dream narrative.</p>
+                        </details>
+
+                        <details
+                          class="group bg-slate-800/50 backdrop-blur-md border border-white/10 p-5 rounded-xl hover:bg-slate-800/70 transition-all">
+                          <summary class="font-bold text-white cursor-pointer flex justify-between items-center">
+                            Does this dream mean I will travel?
+                            <span class="text-primary group-open:rotate-180 transition-transform">▼</span>
+                          </summary>
+                          <p class="mt-3 text-gray-300 leading-relaxed">Sometimes, but more often it symbolizes "mental
+                            travel"—exploring new ideas, perspectives, or phases of life. It represents expanding your
+                            horizons, whether literally through travel or figuratively through new experiences.</p>
+                        </details>
+
+                        <details
+                          class="group bg-slate-800/50 backdrop-blur-md border border-white/10 p-5 rounded-xl hover:bg-slate-800/70 transition-all">
+                          <summary class="font-bold text-white cursor-pointer flex justify-between items-center">
+                            Why do I keep losing altitude in my flying dreams?
+                            <span class="text-primary group-open:rotate-180 transition-transform">▼</span>
+                          </summary>
+                          <p class="mt-3 text-gray-300 leading-relaxed">Losing altitude reflects declining confidence or
+                            energy in waking life. Something is draining your vitality or undermining your self-belief.
+                            Identify what's pulling you down and address it directly.</p>
+                        </details>
+
+                        <details
+                          class="group bg-slate-800/50 backdrop-blur-md border border-white/10 p-5 rounded-xl hover:bg-slate-800/70 transition-all">
+                          <summary class="font-bold text-white cursor-pointer flex justify-between items-center">
+                            Can everyone learn to fly in their dreams?
+                            <span class="text-primary group-open:rotate-180 transition-transform">▼</span>
+                          </summary>
+                          <p class="mt-3 text-gray-300 leading-relaxed">With practice, yes! Lucid dreaming techniques
+                            can help you consciously initiate flight in dreams. Regularly questioning "Am I dreaming?"
+                            during the day helps trigger awareness during sleep, allowing you to take control and fly at
+                            will.</p>
+                        </details>
+                      </div>
+
+                      <!-- Meaning by Emotions -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">Meaning by Emotions</h2>
+                      <ul class="space-y-3 text-gray-300 leading-relaxed">
+                        <li><strong class="text-primary">If the dream felt joyful:</strong> You're in perfect alignment
+                          with your life purpose and experiencing genuine happiness. This is a sign to continue on your
+                          current path.</li>
+                        <li><strong class="text-primary">If the dream felt scary (fear of heights):</strong> You're
+                          afraid of your own potential or success. The heights represent how far you could go, and that
+                          possibility frightens you more than failure.</li>
+                        <li><strong class="text-primary">If the dream felt frustrating (can't take off):</strong>
+                          External circumstances or internal doubts are preventing you from achieving your goals. You
+                          have the ability but lack the right conditions or confidence.</li>
+                        <li><strong class="text-primary">If the dream felt powerful:</strong> You're recognizing and
+                          embracing your personal power. This reflects growing self-confidence and the realization that
+                          you control your destiny.</li>
+                      </ul>
+
+                      <!-- Meaning by Context -->
+                      <h2 class="text-2xl font-bold text-white mt-12 mb-6 font-serif">Meaning by Context</h2>
+                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div class="article-card p-5 rounded-xl">
+                          <div class="font-bold text-white mb-2">Flying in a Plane</div>
+                          <div class="text-sm text-gray-300 leading-relaxed">You're on a journey but not in full
+                            control—someone else is piloting. This represents major life transitions where you're a
+                            passenger rather than the driver.</div>
+                        </div>
+                        <div class="article-card p-5 rounded-xl">
+                          <div class="font-bold text-white mb-2">Flying with Someone</div>
+                          <div class="text-sm text-gray-300 leading-relaxed">Shared goals, values, or a deep spiritual
+                            connection with that person. You're on the same journey and supporting each other's growth.
+                          </div>
+                        </div>
+                        <div class="article-card p-5 rounded-xl">
+                          <div class="font-bold text-white mb-2">Flying Low to the Ground</div>
+                          <div class="text-sm text-gray-300 leading-relaxed">You're making progress but remain cautious
+                            and practical. You haven't fully committed to taking risks or leaving your comfort zone.
+                          </div>
+                        </div>
+                        <div class="article-card p-5 rounded-xl">
+                          <div class="font-bold text-white mb-2">Flying Above Clouds</div>
+                          <div class="text-sm text-gray-300 leading-relaxed">You've transcended mundane concerns and
+                            achieved clarity. The clouds represent confusion or problems—you've risen above them into
+                            clear skies.</div>
+                        </div>
+                      </div>
+
+                      <!-- Final Interpretation Summary -->
+                      <div
+                        class="mt-12 p-8 bg-gradient-to-br from-indigo-500/20 to-purple-500/20 border border-indigo-500/30 rounded-2xl backdrop-blur-sm text-center">
+                        <h3 class="text-2xl font-bold text-white mb-4 font-serif flex items-center justify-center">
+                          <span class="mr-2">🌟</span> Final Interpretation
+                        </h3>
+                        <p class="text-gray-200 text-lg leading-relaxed italic">
+                          "To dream of flying is to remember your own power. It reminds you that you're not bound by the
+                          'gravity' of daily problems or limitations others place on you. You possess the ability to
+                          rise above circumstances, change your perspective, and achieve what others deem impossible.
+                          Flying dreams are your subconscious celebrating your potential and urging you to spread your
+                          wings."
+                        </p>
+                      </div>
+
+                    </div>
+
+                    <div class="my-12 text-center">
+                      <div
+                        class="bg-slate-800/50 backdrop-blur-md border border-white/10 p-8 rounded-2xl text-gray-400 font-medium hover:bg-slate-800/70 transition-all">
+                        AdSense Ad Space
+                      </div>
+                    </div>
+                  </article>
+                  </main>
+
+                  <footer class="bg-slate-900/50 backdrop-blur-lg border-t border-white/5 pt-16 pb-8">
+                    <div class="max-w-7xl mx-auto px-6">
+                      <div class="grid md:grid-cols-4 gap-12 mb-12">
+                        <div class="col-span-1 md:col-span-2">
+                          <a href="../index.html"
+                            class="text-2xl font-bold text-white mb-4 inline-block font-serif">Dream<span
+                              class="text-primary">Guide</span></a>
+                          <p class="text-gray-400 max-w-sm">
+                            Your daily companion for understanding the hidden messages in your dreams. Start your
+                            journey of
+                            self-discovery today.
+                          </p>
+                        </div>
+                        <div>
+                          <h4 class="font-bold text-white mb-4 font-serif">Quick Links</h4>
+                          <ul class="space-y-2 text-gray-400">
+                            <li><a href="../index.html" class="hover:text-primary transition">Home</a></li>
+                            <li><a href="../index.html#features" class="hover:text-primary transition">Features</a></li>
+                            <li><a href="#" class="hover:text-primary transition">Articles</a></li>
+                            <li><a href="../about.html" class="hover:text-primary transition">About Us</a></li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 class="font-bold text-white mb-4 font-serif">Legal</h4>
+                          <ul class="space-y-2 text-gray-400">
+                            <li><a href="../privacy.html" class="hover:text-primary transition">Privacy Policy</a></li>
+                            <li><a href="../terms.html" class="hover:text-primary transition">Terms of Service</a></li>
+                            <li><a href="../cookies.html" class="hover:text-primary transition">Cookie Policy</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="border-t border-white/5 pt-8 text-center text-gray-500 text-sm">
+                        © 2025 Dream Interpretation Guide · All rights reserved.
+                      </div>
+                    </div>
+                  </footer>
+
+                  <script>
+                    // Mobile Menu Toggle
+                    const menuBtn = document.getElementById("menuBtn");
+                    const menu = document.getElementById("menu");
+
+                    if (menuBtn && menu) {
+                      menuBtn.onclick = () => {
+                        menu.classList.toggle("hidden");
+                        menu.classList.toggle("flex");
+                        menu.classList.toggle("flex-col");
+                        menu.classList.toggle("absolute");
+                        menu.classList.toggle("top-16");
+                        menu.classList.toggle("left-0");
+                        menu.classList.toggle("w-full");
+                        menu.classList.toggle("bg-slate-900");
+                        menu.classList.toggle("p-4");
+                        menu.classList.toggle("shadow-lg");
+                      };
+                    }
+                  </script>
+        </body>
+
+        </html>

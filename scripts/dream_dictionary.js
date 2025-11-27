@@ -1,0 +1,60 @@
+
+const DREAM_DICTIONARY = [
+    // Animals
+    { term: "Snake", meaning: "Often represents hidden threats, transformation, or healing. A shedding snake symbolizes rebirth.", category: "Animals" },
+    { term: "Dog", meaning: "Symbolizes loyalty, friendship, and protection. An aggressive dog may represent an inner conflict or betrayal.", category: "Animals" },
+    { term: "Cat", meaning: "Represents intuition, independence, and feminine power. A black cat might symbolize fear of the unknown.", category: "Animals" },
+    { term: "Spider", meaning: "Feeling trapped or manipulated ('caught in a web'). Can also represent creativity and patience.", category: "Animals" },
+    { term: "Bear", meaning: "Strength and independence. A hibernating bear suggests a need for introspection.", category: "Animals" },
+    { term: "Wolf", meaning: "Survival instincts, solitude, or a need for social connection (the pack).", category: "Animals" },
+    { term: "Bird", meaning: "Freedom, perspective, and spiritual connection. Caged birds represent feeling restricted.", category: "Animals" },
+    { term: "Fish", meaning: "Insights from the unconscious mind. Swimming freely suggests emotional balance.", category: "Animals" },
+    { term: "Horse", meaning: "Power, endurance, and sexual energy. Riding a horse implies control over these forces.", category: "Animals" },
+    { term: "Butterfly", meaning: "Transformation, social success, and romantic joy.", category: "Animals" },
+
+    // Common Scenarios
+    { term: "Falling", meaning: "Insecurity, loss of control, or fear of failure. Often occurs during major life changes.", category: "Scenarios" },
+    { term: "Flying", meaning: "A desire for freedom, escape from problems, or a new perspective. lucid dreaming trigger.", category: "Scenarios" },
+    { term: "Chased", meaning: "Running away from a problem, fear, or part of yourself you don't want to face.", category: "Scenarios" },
+    { term: "Naked", meaning: "Vulnerability, shame, or fear of being exposed. Can also mean freedom and honesty.", category: "Scenarios" },
+    { term: "Teeth Falling Out", meaning: "Anxiety about appearance, communication, or powerlessness. Fear of aging.", category: "Scenarios" },
+    { term: "Late", meaning: "Fear of missing out (FOMO), feeling unprepared, or overwhelmed by time pressure.", category: "Scenarios" },
+    { term: "Lost", meaning: "Confusion about life direction, feeling out of place, or needing to make a decision.", category: "Scenarios" },
+    { term: "Drowning", meaning: "Being overwhelmed by emotions or a situation. Struggling to survive.", category: "Scenarios" },
+    { term: "Exam/Test", meaning: "Fear of judgment, feeling unprepared, or high self-expectations.", category: "Scenarios" },
+    { term: "Driving", meaning: "Control over your life path. Losing control of the car means feeling directionless.", category: "Scenarios" },
+
+    // Objects & Places
+    { term: "Water", meaning: "Represents emotions. Clear water = peace; muddy water = confusion; tidal wave = overwhelming feelings.", category: "Nature" },
+    { term: "House", meaning: "Represents the self. different rooms relate to different aspects of your personality.", category: "Places" },
+    { term: "Money", meaning: "Self-worth, power, and potential. Losing money suggests low self-esteem.", category: "Objects" },
+    { term: "Fire", meaning: "Destruction, passion, or purification. Can indicate anger or transformation.", category: "Nature" },
+    { term: "Death", meaning: "End of a phase, change, or transformation. Rarely predicts actual death.", category: "Abstract" },
+    { term: "Baby", meaning: "New beginnings, potential, or a need for care and nurturing.", category: "People" },
+    { term: "Ex-Partner", meaning: "Unresolved feelings, repeating patterns, or integrating lessons from the past.", category: "People" },
+    { term: "Car", meaning: "Your drive and ambition. The condition of the car reflects your physical body or ego.", category: "Objects" },
+    { term: "Phone", meaning: "Communication. A broken phone means difficulty connecting with others or yourself.", category: "Objects" },
+    { term: "Mirror", meaning: "Self-reflection and identity. What you see is how you perceive yourself.", category: "Objects" },
+
+    // More Symbols
+    { term: "Door", meaning: "Opportunities or transitions. Locked doors represent obstacles.", category: "Objects" },
+    { term: "Key", meaning: "Solutions, knowledge, or access to hidden parts of yourself.", category: "Objects" },
+    { term: "Ladder", meaning: "Ascension, progress, or spiritual growth. Climbing down means exploring the subconscious.", category: "Objects" },
+    { term: "Mountain", meaning: "Obstacles, challenges, or a higher perspective. Climbing implies effort.", category: "Nature" },
+    { term: "Ocean", meaning: "The vast unconscious mind, spirituality, or overwhelming emotions.", category: "Nature" },
+    { term: "Rain", meaning: "Sadness, cleansing, or emotional release.", category: "Nature" },
+    { term: "Snow", meaning: "Emotional coldness, isolation, or a fresh start (pure white).", category: "Nature" },
+    { term: "Storm", meaning: "Inner conflict, anger, or a turbulent life situation.", category: "Nature" },
+    { term: "Sun", meaning: "Consciousness, clarity, energy, and vitality.", category: "Nature" },
+    { term: "Moon", meaning: "Intuition, the feminine, and the unconscious.", category: "Nature" },
+    { term: "Star", meaning: "Hope, guidance, and aspirations.", category: "Nature" },
+    { term: "Tree", meaning: "Growth, stability, and connection to family (roots).", category: "Nature" },
+    { term: "Flower", meaning: "Beauty, compassion, and potential unfolding.", category: "Nature" },
+    { term: "Bridge", meaning: "Transition from one phase of life to another.", category: "Places" },
+    { term: "School", meaning: "Learning life lessons or feelings of inadequacy.", category: "Places" },
+    { term: "Hospital", meaning: "Need for healing (physical or emotional) or a transition.", category: "Places" },
+    { term: "Elevator", meaning: "Shifting consciousness. Going up = higher awareness; going down = subconscious.", category: "Objects" },
+    { term: "Clock", meaning: "Awareness of time passing, mortality, or deadlines.", category: "Objects" },
+    { term: "Shoes", meaning: "Your path in life or grounding. Losing shoes means losing direction.", category: "Objects" },
+    { term: "Hair", meaning: "Strength, vanity, or thoughts. Cutting hair implies a change in identity.", category: "Body" }
+];

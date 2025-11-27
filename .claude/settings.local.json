@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node generate-articles.js:*)",
+      "Bash(for f in keyword-1.html keyword-2.html keyword-3.html keyword-4.html)",
+      "Bash(done)",
+      "Bash(node update-footer-links.js:*)",
+      "Bash(node fix-header-links.js)",
+      "Bash(git clone:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
