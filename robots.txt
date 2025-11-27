@@ -1,0 +1,43 @@
+# robots.txt for dreamdecode.it.com
+# Dream Interpretation Guide
+
+# Allow all search engines to crawl the site
+User-agent: *
+Allow: /
+
+# Disallow crawling of backup files
+Disallow: /*.backup$
+
+# Disallow crawling of JavaScript utility files
+Disallow: /fix-duplicates.js
+Disallow: /fix-header-links.js
+Disallow: /generate-articles.js
+Disallow: /optimize-articles.js
+Disallow: /update-articles.js
+Disallow: /update-footer-links.js
+
+# Disallow crawling of development files
+Disallow: /start-server.bat
+Disallow: /.claude/
+
+# Sitemap location
+Sitemap: https://dreamdecode.it.com/sitemap.xml
+
+# Crawl-delay for good behavior (optional)
+# Crawl-delay: 1
+
+# Allow specific search engines (optional, for emphasis)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
