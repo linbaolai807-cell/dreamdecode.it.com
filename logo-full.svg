@@ -1,0 +1,95 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 主梯度 -->
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#818cf8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#c084fc;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6366f1;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 副梯度 - 绿色 -->
+    <linearGradient id="secondaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#34d399;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#10b981;stop-opacity:1" />
+    </linearGradient>
+
+    <!-- 发光效果 -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- 强发光效果 -->
+    <filter id="strongGlow">
+      <feGaussianBlur stdDeviation="3.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="300" height="300" fill="#0f172a" opacity="0"/>
+
+  <!-- 外圆圈 - 神秘圆环 -->
+  <circle cx="150" cy="120" r="85" fill="none" stroke="url(#primaryGradient)" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="150" cy="120" r="85" fill="none" stroke="url(#primaryGradient)" stroke-width="1" opacity="0.15" stroke-dasharray="5,3" stroke-dashoffset="2"/>
+
+  <!-- 新月主体 -->
+  <g filter="url(#glow)">
+    <!-- 外层新月 (蓝紫色) -->
+    <circle cx="120" cy="100" r="40" fill="#818cf8" opacity="0.95"/>
+    <!-- 内层挖空 (黑色) -->
+    <circle cx="135" cy="93" r="40" fill="#0f172a"/>
+  </g>
+
+  <!-- 星星装饰 -->
+  <g filter="url(#strongGlow)">
+    <!-- 大星 -->
+    <circle cx="105" cy="85" r="2.5" fill="#fbbf24" opacity="0.95"/>
+    <!-- 中星 -->
+    <circle cx="125" cy="75" r="1.8" fill="#fbbf24" opacity="0.85"/>
+    <!-- 小星 -->
+    <circle cx="110" cy="110" r="1.2" fill="#fbbf24" opacity="0.75"/>
+    <!-- 极小星 -->
+    <circle cx="130" cy="110" r="0.8" fill="#fbbf24" opacity="0.65"/>
+  </g>
+
+  <!-- 梦幻波浪 1 -->
+  <path d="M 80 140 Q 110 130 140 140 Q 170 150 200 140"
+        stroke="url(#primaryGradient)" stroke-width="2.5" fill="none" opacity="0.7" stroke-linecap="round"/>
+
+  <!-- 梦幻波浪 2 -->
+  <path d="M 85 160 Q 115 150 145 160 Q 175 170 205 160"
+        stroke="url(#primaryGradient)" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+
+  <!-- 第三眼 - 中心神秘元素 -->
+  <g filter="url(#glow)">
+    <!-- 外圆 -->
+    <circle cx="150" cy="175" r="10" fill="none" stroke="url(#secondaryGradient)" stroke-width="2" opacity="0.8"/>
+    <!-- 内圆 -->
+    <circle cx="150" cy="175" r="5.5" fill="url(#secondaryGradient)" opacity="0.7"/>
+    <!-- 中心点 -->
+    <circle cx="150" cy="175" r="2" fill="#ffffff" opacity="0.9"/>
+  </g>
+
+  <!-- 装饰元素 - 四周小点 -->
+  <circle cx="65" cy="120" r="1.5" fill="url(#primaryGradient)" opacity="0.6"/>
+  <circle cx="235" cy="120" r="1.5" fill="url(#primaryGradient)" opacity="0.6"/>
+  <circle cx="150" cy="45" r="1.5" fill="url(#primaryGradient)" opacity="0.6"/>
+  <circle cx="150" cy="210" r="1.5" fill="url(#secondaryGradient)" opacity="0.6"/>
+
+  <!-- 文字: Dream Guide -->
+  <text x="150" y="250" font-family="'Playfair Display', serif" font-size="24" font-weight="700" text-anchor="middle" fill="#ffffff">
+    Dream<tspan fill="#818cf8">Guide</tspan>
+  </text>
+
+  <!-- 副标题 -->
+  <text x="150" y="272" font-family="'Outfit', sans-serif" font-size="10" text-anchor="middle" fill="#818cf8" opacity="0.7" letter-spacing="1">
+    INTERPRETATION GUIDE
+  </text>
+</svg>

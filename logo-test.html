@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Display Test - Dream Guide</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(to bottom right, #0f172a, #1e1b4b, #312e81);
+            min-height: 100vh;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 40px;
+            font-size: 2em;
+            background: linear-gradient(to right, #818cf8, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .test-section {
+            margin-bottom: 40px;
+        }
+
+        .test-section h2 {
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            color: #34d399;
+        }
+
+        .logo-display {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 2px dashed #818cf8;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-display img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .logo-small {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            background: rgba(0, 0, 0, 0.3);
+            border: 1px dashed #818cf8;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo-small img {
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .status {
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 0.95em;
+        }
+
+        .status.success {
+            background: rgba(52, 211, 153, 0.2);
+            border: 1px solid #34d399;
+            color: #86efac;
+        }
+
+        .status.error {
+            background: rgba(239, 68, 68, 0.2);
+            border: 1px solid #ef4444;
+            color: #fca5a5;
+        }
+
+        .code-section {
+            background: rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(129, 140, 248, 0.3);
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .code-section code {
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #34d399;
+            word-break: break-all;
+        }
+
+        .info {
+            background: rgba(129, 140, 248, 0.1);
+            border-left: 4px solid #818cf8;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+            text-align: left;
+            color: #cbd5e1;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        button {
+            background: #818cf8;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #6366f1;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 Dream Guide Logo - Display Test</h1>
+
+        <div class="test-section">
+            <h2>Test 1: Logo Icon (Large - 200x200)</h2>
+            <div class="logo-display">
+                <img src="logo-icon.svg" alt="Dream Guide Logo Icon" onerror="this.parentElement.innerHTML='<span style=\"color: #ef4444;\">❌ Logo failed to load</span>'">
+            </div>
+            <div class="code-section">
+                <code>&lt;img src="logo-icon.svg" alt="Dream Guide Logo"&gt;</code>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>Test 2: Logo Icon (Header Size - 40x40)</h2>
+            <div class="logo-small">
+                <img src="logo-icon.svg" alt="Dream Guide Logo" style="filter: drop-shadow(0 0 8px rgba(129, 140, 248, 0.5));" onerror="this.parentElement.innerHTML='<span style=\"color: #ef4444; font-size: 12px;\">❌ Error</span>'">
+            </div>
+            <div class="code-section">
+                <code>&lt;img src="logo-icon.svg" class="w-10 h-10" style="filter: drop-shadow(0 0 8px rgba(129, 140, 248, 0.5));"&gt;</code>
+            </div>
+        </div>
+
+        <div class="test-section">
+            <h2>Test 3: Logo Full (with text)</h2>
+            <div class="logo-display" style="width: 250px; height: 300px;">
+                <img src="logo-full.svg" alt="Dream Guide Full Logo" onerror="this.parentElement.innerHTML='<span style=\"color: #ef4444;\">❌ Logo failed to load</span>'">
+            </div>
+            <div class="code-section">
+                <code>&lt;img src="logo-full.svg"&gt;</code>
+            </div>
+        </div>
+
+        <div class="info">
+            <strong>ℹ️ 说明:</strong><br>
+            如果看到Logo图像，说明SVG文件正确配置并可以显示。<br>
+            如果看到 ❌ 错误，说明文件路径或服务器配置有问题。<br>
+            <br>
+            <strong>下一步:</strong><br>
+            1. 如果Logo显示正常 → 清空浏览器缓存后刷新主网站<br>
+            2. 如果Logo不显示 → 检查文件权限或服务器MIME类型配置
+        </div>
+
+        <button onclick="location.href='index.html'">回到首页</button>
+    </div>
+
+    <script>
+        // 检查SVG文件是否存在
+        fetch('logo-icon.svg')
+            .then(response => {
+                if (response.ok) {
+                    console.log('✅ logo-icon.svg 加载成功');
+                } else {
+                    console.error('❌ logo-icon.svg 未找到 (HTTP ' + response.status + ')');
+                }
+            })
+            .catch(error => {
+                console.error('❌ 无法加载 logo-icon.svg:', error);
+            });
+
+        fetch('logo-full.svg')
+            .then(response => {
+                if (response.ok) {
+                    console.log('✅ logo-full.svg 加载成功');
+                } else {
+                    console.error('❌ logo-full.svg 未找到 (HTTP ' + response.status + ')');
+                }
+            })
+            .catch(error => {
+                console.error('❌ 无法加载 logo-full.svg:', error);
+            });
+    </script>
+</body>
+</html>
